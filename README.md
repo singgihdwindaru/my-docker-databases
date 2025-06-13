@@ -8,12 +8,10 @@ This project provides a complete setup for running MySQL and PostgreSQL database
 docker-databases/
 ├── docker-compose.yml          # Main compose file (runs both databases)
 ├── mysql/
-│   ├── docker-compose.yml     # MySQL-only compose file
 │   ├── config/
 │   ├── data/                  # MySQL persistent data (host binding - optional)
 │   └── logs/                  # MySQL logs
 ├── postgres/
-│   ├── docker-compose.yml     # PostgreSQL-only compose file
 │   ├── config/
 │   │   └── postgresql.conf    # PostgreSQL configuration
 │   ├── data/                  # PostgreSQL persistent data
